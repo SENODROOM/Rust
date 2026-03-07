@@ -18,28 +18,44 @@ Rust/
 
 ## 🚀 Fundamentals (`fundamentals/`)
 
-### Core Language Features
-- **[Variables and Data Types](fundamentals/Variables%20and%20Data%20Types.md)** - Understanding Rust's type system
-- **[Functions and Closures](fundamentals/Functions%20and%20Closures.md)** - Function definitions and closures
-- **[Control Flow](fundamentals/Control%20Flow.md)** - Conditional statements and loops
-- **[Ownership and Borrowing](fundamentals/Ownership%20and%20Borrowing.md)** - Rust's ownership system
-- **[Structs and Enums](fundamentals/Structs%20and%20Enums.md)** - Custom data types
-- **[Error Handling](fundamentals/Error%20Handling.md)** - Result and Option types
-- **[Traits and Generics](fundamentals/Traits%20and%20Generics.md)** - Code reuse and polymorphism
-- **[Collections](fundamentals/Collections.md)** - Vectors, HashMaps, and other collections
-- **[Modules and Packages](fundamentals/Modules%20and%20Packages.md)** - Code organization
-- **[Concurrency Basics](fundamentals/Concurrency%20Basics.md)** - Threads and basic concurrency
-- **[Macros](fundamentals/Macros.md)** - Metaprogramming with macros
-- **[Testing](fundamentals/Testing.md)** - Writing and running tests
-- **[Memory Management](fundamentals/Memory%20Management.md)** - Stack vs heap, lifetimes
-- **[Pattern Matching](fundamentals/Pattern%20Matching.md)** - Match expressions and patterns
-- **[Iterators](fundamentals/Iterators.md)** - Iterator trait and lazy evaluation
-- **[Lifetimes](fundamentals/Lifetimes.md)** - Understanding lifetime annotations
+### Basics (`fundamentals/basics/`)
+- **[Variables](fundamentals/basics/Variables.md)** - Variable declaration, mutability, and scope
+- **[Data Types](fundamentals/basics/Data%20Types.md)** - Scalar and compound types, type conversions
+- **[Functions](fundamentals/basics/Functions.md)** - Function definitions, parameters, and return values
+- **[Closures and Iterators](fundamentals/basics/Closures%20and%20Iterators.md)** - Anonymous functions and iterator patterns
 
-### New Fundamentals Added
-- **[CLI Development](fundamentals/CLI%20Development.md)** - Building command-line applications
-- **[File I/O](fundamentals/File%20I/O.md)** - Reading and writing files
-- **[Pattern Matching Advanced](fundamentals/Pattern%20Matching%20Advanced.md)** - Advanced pattern matching techniques
+### Control Flow (`fundamentals/control-flow/`)
+- **[Conditionals](fundamentals/control-flow/Conditionals.md)** - If expressions, match statements, conditional logic
+- **[Loops](fundamentals/control-flow/Loops.md)** - Loop types, control statements, iteration patterns
+- **[Pattern Matching](fundamentals/control-flow/Pattern%20Matching.md)** - Pattern matching with match expressions
+- **[Pattern Matching Advanced](fundamentals/control-flow/Pattern%20Matching%20Advanced.md)** - Advanced pattern matching techniques
+
+### Data Structures (`fundamentals/data-structures/`)
+- **[Structs](fundamentals/data-structures/Structs.md)** - Struct definitions, methods, generics, and patterns
+- **[Enums](fundamentals/data-structures/Enums.md)** - Enum definitions, variants, and pattern matching
+- **[Collections](fundamentals/data-structures/Collections.md)** - Vectors, HashMaps, and other collections
+
+### Memory Management (`fundamentals/memory-management/`)
+- **[Ownership](fundamentals/memory-management/Ownership.md)** - Ownership rules, borrowing, and lifetimes
+- **[References](fundamentals/memory-management/References.md)** - Reference rules and borrowing
+- **[Smart Pointers](fundamentals/memory-management/Smart%20Pointers.md)** - Box, Rc, RefCell pointers
+- **[Lifetimes](fundamentals/memory-management/Lifetimes.md)** - Understanding lifetime annotations
+
+### Organization (`fundamentals/organization/`)
+- **[Modules and Crates](fundamentals/organization/Modules%20and%20Crates.md)** - Code organization and visibility
+- **[Traits](fundamentals/organization/Traits.md)** - Trait definitions and implementations
+- **[Generics](fundamentals/organization/Generics.md)** - Generic programming and type parameters
+
+### Error Handling (`fundamentals/error-handling/`)
+- **[Error Handling](fundamentals/error-handling/Error%20Handling.md)** - Result and Option types, error propagation
+
+### Concurrency (`fundamentals/concurrency/`)
+- **[Concurrency](fundamentals/concurrency/Concurrency.md)** - Threads and basic concurrency
+
+### Practical Applications (`fundamentals/practical-applications/`)
+- **[Command Line Apps](fundamentals/practical-applications/Command%20Line%20Apps.md)** - Building CLI applications
+- **[CLI Development](fundamentals/practical-applications/CLI%20Development.md)** - Advanced CLI development patterns
+- **[File I/O](fundamentals/practical-applications/File%20IandO.md)** - Reading and writing files
 
 ---
 
@@ -225,6 +241,6 @@ If you have questions or need help:
 
 ---
 
-*Last updated: December 2023*
-*Total concepts: 48*
-*Files: 96*
+*Last updated: March 2026*
+*Total concepts: 51*
+*Files: 102*
